@@ -5,7 +5,7 @@ My Roguelike project written in Python 3 and TCOD using a tutorial.
 https://rogueliketutorials.com/tutorials/tcod/v2/
 
 # Environment setup:
-- `sudo apt-get install libmariadb-dev python3-dev`
+- `sudo apt-get install libsdl2-dev`
 - `sudo git clone https://github.com/i-am-fyre/Roguelike`
 - `cd Roguelike`
 - `python3 -m venv ./.venv`
