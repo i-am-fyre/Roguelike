@@ -16,7 +16,7 @@ https://rogueliketutorials.com/tutorials/tcod/v2/
 
 ## Windows 10
 - `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
-- `.\.venv\bin\Activate.ps1`
+- `.\.venv\Scripts\Activate.ps1`
 - `Set-ExecutionPolicy Restricted -Scope CurrentUser`
 - `py -m pip install -r requirements.txt`
 
