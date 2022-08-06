@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import os
 import copy
 import traceback
 
@@ -9,6 +10,8 @@ import colours
 from engine import Engine
 import entity_factories
 from procgen import generate_dungeon
+
+application_path = os.path.dirname(os.path.abspath(__file__))
 
 def main() -> None:
     screen_width = 80
@@ -24,9 +27,7 @@ def main() -> None:
     max_monsters_per_room = 2
     max_items_per_room = 2
 
-    tileset = tcod.tileset.load_tilesheet(
-        "resources/img/dejavu10x10_gs_tc.png", 32, 8, tcod.tileset.CHARMAP_TCOD
-    )
+    tileset = tcod.tileset.load_tilesheet(application_path + "/resources/img/dejavu10x10_gs_tc.png", 32, 8, tcod.tileset.CHARMAP_TCOD)
 
     player = copy.deepcopy(entity_factories.player)
 
