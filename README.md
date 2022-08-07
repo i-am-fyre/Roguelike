@@ -33,7 +33,7 @@ Main Tutorial:
 - ~~Part 7 - Creating the Interface~~
 - ~~Part 8 - Items and Inventory~~
 - ~~Part 9 - Ranged Scrolls and Targeting~~
-- Part 10 - Saving and loading
+- ~~Part 10 - Saving and loading~~
 - Part 11 - Delving into the Dungeon
 - Part 12 - Increasing Difficulty
 - Part 13 - Gearing up
