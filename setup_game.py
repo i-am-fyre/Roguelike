@@ -110,7 +110,7 @@ class MainMenu(input_handlers.BaseEventHandler):
                 return input_handlers.PopupMessage(self, "No saved game to load.")
             except Exception as exc:
                 traceback.print_exc() # Print to stderr.
-                return input_handlers.PopupMessage(self, f"Failed to load save:\n{esc}")
+                return input_handlers.PopupMessage(self, f"Failed to load save:\n{exc}")
         elif event.sym == tcod.event.K_n:
             return input_handlers.MainGameEventHandler(new_game())
 
