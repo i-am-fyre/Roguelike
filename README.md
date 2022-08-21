@@ -36,6 +36,6 @@ Main Tutorial:
 - ~~Part 10 - Saving and loading~~
 - ~~Part 11 - Delving into the Dungeon~~
 - ~~Part 12 - Increasing Difficulty~~
-- Part 13 - Gearing up
+- ~~Part 13 - Gearing up~~
 Extras:
 - A more “Traditional” Look
